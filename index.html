@@ -34,7 +34,7 @@
 			<div class="container">
 				<div class="row justify-content-start align-items-center">
 					<div class="col-lg-6 col-md-12 no-padding banner-right">
-						<img class="img-fluid" src="img/as.gif" alt="">
+						<img class="img-fluid" id="myImage" src="img/as.gif" alt="">
 					</div>						
 					<div class="col-lg-6 col-md-12 left-col6-main banner-left text-center">
 						<h1 class="text-white">
@@ -102,6 +102,7 @@
 				  var tooltip = document.getElementById("myTooltip");
 				  tooltip.innerHTML = "Copy to clipboard";
 				}
+				document.getElementById('myImage').draggable = false;
 			</script>	
 		</body>
 	</html>
